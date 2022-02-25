@@ -60,7 +60,7 @@ header .navbar a {
   display: none;
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 960px) {
   #menu-bar {
     display: initial;
   }
@@ -137,7 +137,7 @@ header .navbar a {
     font-size: 80px;
   }
 }
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 960px) {
   .hero-heading {
     font-size: 40px;
   }
@@ -147,7 +147,7 @@ header .navbar a {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 960px) {
   .hero-heading {
     font-size: 15px;
   }
@@ -188,16 +188,18 @@ header .navbar a {
     font-size: 80px;
   }
 }
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 960px) {
   .project-heading {
     font-size: 40px;
   }
 
   .project-section {
-    padding: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 960px) {
   .project-heading {
     font-size: 15px;
   }
@@ -211,7 +213,7 @@ header .navbar a {
 .project-card {
   height: auto;
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 .project-img {
@@ -238,12 +240,13 @@ header .navbar a {
   font-weight: 300;
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 960px) {
   .project-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-left: 5px;
   }
 
   .project-content {

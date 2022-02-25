@@ -60,7 +60,7 @@
                 display: none;
             }
             
-            @media screen and(max-width: 821px) {
+            @media screen and(max-width: 960px) {
                 #menu-bar {
                     display: initial;
                 }
@@ -135,7 +135,7 @@
                 }
             }
             
-            @media screen and(max-width: 821px) {
+            @media screen and(max-width: 960px) {
                 .hero-heading {
                     font-size: 40px;
                 }
@@ -145,7 +145,7 @@
                 }
             }
             
-            @media screen and(max-width: 500px) {
+            @media screen and(max-width: 960px) {
                 .hero-heading {
                     font-size: 15px;
                 }
@@ -188,16 +188,18 @@
                 }
             }
             
-            @media screen and(max-width: 821px) {
+            @media screen and(max-width: 960px) {
                 .project-heading {
                     font-size: 40px;
                 }
                 .project-section {
-                    padding: 10px;
+                    padding: 5px;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
             
-            @media screen and(max-width: 500px) {
+            @media screen and(max-width: 960px) {
                 .project-heading {
                     font-size: 15px;
                 }
@@ -212,7 +214,7 @@
             .project-card {
                 height: auto;
                 position: relative;
-                width: 100%;
+                max-width: 100%;
             }
             
             .project-img {
@@ -239,12 +241,13 @@
                 font-weight: 300;
             }
             
-            @media screen and(max-width: 821px) {
+            @media screen and(max-width: 960px) {
                 .project-container {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
+                    padding-left: 5px;
                 }
                 .project-content {
                     padding: 20px;
