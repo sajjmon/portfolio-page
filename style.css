@@ -247,7 +247,7 @@ header .navbar a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 100%;
   }
 
   .project-content {
