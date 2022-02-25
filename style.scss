@@ -440,6 +440,7 @@
             @media screen and(max-width: 960px) {
                 .heading {
                     font-size: 30px;
+                    margin-bottom: 40px;
                 }
             }
             
@@ -456,6 +457,12 @@
                 .skills-container {
                     grid-template-columns: none;
                     grid-gap: 50px !important;
+                }
+                .skill-info {
+                    margin: 40px !important;
+                }
+                .skill-level {
+                    margin-right: 15px;
                 }
             }
             
@@ -543,6 +550,38 @@
                 margin: -50px 0;
                 position: relative;
                 background: #f00;
+            }
+            
+            @media screen and(max-width: 960px) {
+                .timeline {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: auto;
+                }
+                .card {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 10px;
+                    width: 100%;
+                }
+                .card-title {
+                    font-size: 20px !important;
+                }
+                .card:nth-child(even):before {
+                    content: none !important;
+                }
+                .card:nth-child(even):after {
+                    content: none !important;
+                }
+                .card:nth-child(odd):before {
+                    content: none !important;
+                }
+                .card:nth-child(odd):after {
+                    content: none !important;
+                }
+                .card:nth-child(even) .card-body:before {
+                    content: none !important;
+                }
             }
             
             .card:nth-child(even) {
@@ -699,4 +738,24 @@
                 width: 100%;
                 height: 100%;
                 border-radius: 5px;
+            }
+            
+            @media screen and(max-width: 960px) {
+                .contact-section {
+                    grid-template-columns: none;
+                    padding: 10px;
+                    max-width: 100%;
+                }
+                .contact-form input {
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    height: auto;
+                }
+                .map {
+                    height: auto;
+                    margin-bottom: 20px;
+                }
+                .form-submit-btn {
+                    padding: 10px 20px;
+                }
             }
