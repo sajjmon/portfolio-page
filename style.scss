@@ -145,6 +145,12 @@
                 }
             }
             
+            @media screen and(max-width: 500px) {
+                .hero-heading {
+                    font-size: 15px;
+                }
+            }
+            
             .home-img {
                 position: absolute;
                 top: 0;
@@ -172,9 +178,26 @@
                 text-align: center;
                 margin-bottom: 50px;
                 color: #1a1a1a;
-                background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-stroke: 8px transparent;
+            }
+            
+            @media screen and(max-width: 1180px) {
+                .project-heading {
+                    font-size: 80px;
+                }
+            }
+            
+            @media screen and(max-width: 821px) {
+                .project-heading {
+                    font-size: 40px;
+                }
+            }
+            
+            @media screen and(max-width: 500px) {
+                .project-heading {
+                    font-size: 15px;
+                }
             }
             
             .project-container {
@@ -183,9 +206,23 @@
                 grid-gap: 100px;
             }
             
+            @media screen and(max-width: 821px) {
+                .project-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+            
             .project-card {
                 height: 400px;
                 position: relative;
+            }
+            
+            @media screen and(max-width: 821px) {
+                .project-card {
+                    height: 200px;
+                }
             }
             
             .project-img {
@@ -210,6 +247,37 @@
                 text-transform: capitalize;
                 text-align: center;
                 font-weight: 300;
+            }
+            
+            @media screen and(max-width: 821px) {
+                .project-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .project-content {
+                    padding: 20px;
+                }
+                .project-title-2 {
+                    font-size: 15px !important;
+                }
+                .project-info {
+                    display: flex;
+                    margin: 5px !important;
+                    font-size: 10px !important;
+                    line-height: 15px !important;
+                }
+                .project-info-2 {
+                    display: flex;
+                    margin: 5px !important;
+                    font-size: 10px !important;
+                    line-height: 15px !important;
+                }
+            }
+            
+            @media screen and(max-width: 821px) {
+                .project-card {
+                    font-size: 14px !important;
+                }
             }
             
             .project-title-2 {
