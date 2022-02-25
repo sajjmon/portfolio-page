@@ -192,6 +192,9 @@
                 .project-heading {
                     font-size: 40px;
                 }
+                .project-section {
+                    padding: 10px;
+                }
             }
             
             @media screen and(max-width: 500px) {
@@ -206,18 +209,10 @@
                 grid-gap: 100px;
             }
             
-            @media screen and(max-width: 821px) {
-                .project-container {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    max-width: 100%;
-                }
-            }
-            
             .project-card {
-                height: 400px;
+                height: auto;
                 position: relative;
+                width: 100%;
             }
             
             .project-img {
@@ -268,17 +263,17 @@
                     display: flex;
                     font-size: 15px !important;
                     line-height: 20px !important;
-                    padding-bottom: 20px !important;
+                    padding-bottom: 10px !important;
                 }
                 .project-info-2 {
                     display: flex;
                     font-size: 15px !important;
                     line-height: 20px !important;
-                    padding-bottom: 20px !important;
+                    padding-bottom: 10px !important;
                 }
                 .project-card {
-                    height: 400px;
-                    max-width: 100%;
+                    height: 300px;
+                    padding-bottom: 20px;
                 }
             }
             
@@ -324,9 +319,6 @@
             @media screen and(max-width: 821px) {
                 .project-btn {
                     font-size: 12px;
-                }
-                .project-btn-grp {
-                    padding-top: 40px;
                 }
             }
             
