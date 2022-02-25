@@ -260,6 +260,12 @@ header .navbar a {
     padding-top: 15px !important;
   }
 
+  .project-title {
+    font-size: 25px !important;
+    padding-bottom: 20px;
+    padding-top: 15px !important;
+  }
+
   .project-info {
     display: flex;
     font-size: 15px !important;
