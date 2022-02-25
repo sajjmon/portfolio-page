@@ -245,6 +245,9 @@ header .navbar a {
   .project-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
   }
 
   .project-content {
@@ -253,28 +256,27 @@ header .navbar a {
 
   .project-title-2 {
     font-size: 25px !important;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    padding-top: 15px !important;
   }
 
   .project-info {
     display: flex;
-    margin: 10px !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     line-height: 20px !important;
     padding-bottom: 40px !important;
   }
 
   .project-info-2 {
     display: flex;
-    margin: 5px !important;
-    font-size: 14px !important;
-    line-height: 15px !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
     padding-bottom: 40px !important;
   }
 
   .project-card {
-    height: 300px;
-    width: 120%;
+    height: 400px;
+    max-width: 500px;
   }
 }
 .project-title-2 {
@@ -316,6 +318,15 @@ header .navbar a {
   cursor: pointer;
 }
 
+@media screen and (max-width: 821px) {
+  .project-btn {
+    font-size: 12px;
+  }
+
+  .project-btn-grp {
+    padding-top: 40px;
+  }
+}
 .project-btn.live {
   background: #000;
   border: 2px solid #fff;
