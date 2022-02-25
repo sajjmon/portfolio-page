@@ -152,6 +152,11 @@ header .navbar a {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero-heading {
+    font-size: 10px;
+  }
+}
 .home-img {
   position: absolute;
   top: 0;
