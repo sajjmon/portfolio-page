@@ -250,7 +250,6 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                    max-width: 100%;
                 }
                 .project-content {
                     padding: 20px;
@@ -279,7 +278,7 @@
                 }
                 .project-card {
                     height: 400px;
-                    max-width: 500px;
+                    max-width: 100%;
                 }
             }
             

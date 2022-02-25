@@ -247,7 +247,6 @@ header .navbar a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
   }
 
   .project-content {
@@ -282,7 +281,7 @@ header .navbar a {
 
   .project-card {
     height: 400px;
-    max-width: 500px;
+    max-width: 100%;
   }
 }
 .project-title-2 {
