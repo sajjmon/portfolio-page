@@ -132,7 +132,7 @@
         <div class="about">
             <div class="about-img-container">
                 <img src="img/sajmon.jpg" class="about-img" alt="">
-                <a class="download-cv-btn" href="img/cvsimon.pdf" download="Simons Cv"></a>
+                <a class="download-cv-btn" href="img/cvsimon.pdf" download="Simons Cv">Download Cv</a>
             </div>
             <div class="about-info">
                 <p>Why do I want to spend my professional life as a developer? - Nothing easier explained than that. Every new task I receive is a new challenge. Although, when I create webpages, no job is the same. In my opinion, it is fascinating to be
@@ -217,10 +217,11 @@
     <section class="contact-section">
 
         <form class="contact-form" action="https://formsubmit.co/simonbergstrom@hotmail.com" method="POST">
-            <input type="text" name="name" placeholder="name" required>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Name..." required>
             <input type="hidden" name="_next" value="https://sajjmon.github.io/portfolio-page//thankyou.html">
-            <input type="email" name="email" placeholder="Email Adress" required>
-            <textarea name="msg" id="msg" placeholder="message" autocomplete="off" required></textarea>
+            <input type="email" name="email" placeholder="Email Adress.." required>
+            <textarea name="msg" id="msg" placeholder="Message..." autocomplete="off" required></textarea>
             <button class="form-submit-btn" type="submit">Send</button>
         </form>
 
