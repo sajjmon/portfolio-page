@@ -416,6 +416,7 @@
                 cursor: pointer;
                 transition: .5s;
                 background: rgba(0, 0, 0, 0.5);
+                text-decoration: none;
             }
             
             .download-cv-btn:hover {
@@ -699,7 +700,6 @@
                 border: 1px solid #fff;
                 margin-bottom: 30px;
                 border-radius: 5px;
-                text-transform: capitalize;
                 color: #fff;
                 padding: 5px 10px;
             }

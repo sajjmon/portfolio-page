@@ -421,6 +421,7 @@ header .navbar a {
   cursor: pointer;
   transition: 0.5s;
   background: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 .download-cv-btn:hover {
@@ -710,7 +711,6 @@ header .navbar a {
   border: 1px solid #fff;
   margin-bottom: 30px;
   border-radius: 5px;
-  text-transform: capitalize;
   color: #fff;
   padding: 5px 10px;
 }
