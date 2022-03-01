@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond:ital,wght@1,300&family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caramel&family=Cormorant+Garamond:ital,wght@1,300&family=Hubballi&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -380,6 +380,10 @@ header .navbar a {
   font-size: 20px;
   line-height: 30px;
   font-family: "Hubballi", sans-serif;
+}
+
+.p-signing {
+  font-family: "Caramel", sans-serif;
 }
 
 @media screen and (max-width: 960px) {
