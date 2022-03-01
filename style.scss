@@ -1,4 +1,4 @@
-                        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Poppins:wght@200&display=swap');
+                        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond:ital,wght@1,300&family=Hubballi&display=swap');
                         * {
                             margin: 0;
                             padding: 0;
@@ -12,7 +12,6 @@
                             margin: auto;
                             min-height: 100vh;
                             background: #191919;
-                            font-family: sans-serif;
                         }
                         
                         header {
@@ -27,6 +26,7 @@
                             display: flex;
                             justify-content: space-between;
                             background: #1a1a1a;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         header .navbar a {
@@ -36,7 +36,6 @@
                             text-decoration: none;
                             text-transform: uppercase;
                             transition: .5s;
-                            font-family: "poppins", sans-serif;
                         }
                         
                         .fa-code {
@@ -46,6 +45,8 @@
                             color: #fff;
                             display: flex;
                         }
+                        
+                        .fa-code i {}
                         
                         .navbar a:hover {
                             color: rgb(236, 35, 35);
@@ -127,6 +128,7 @@
                             font-size: 120px;
                             text-transform: capitalize;
                             font-weight: 300;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         @media screen and(max-width: 1180px) {
@@ -188,6 +190,7 @@
                             color: #1a1a1a;
                             -webkit-background-clip: text;
                             -webkit-text-stroke: 8px transparent;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         @media screen and(max-width: 1180px) {
@@ -247,6 +250,7 @@
                             text-transform: capitalize;
                             text-align: center;
                             font-weight: 300;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         @media screen and(max-width: 960px) {
@@ -294,6 +298,7 @@
                             text-align: center;
                             font-weight: 300;
                             color: #000;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         .project-info {
@@ -301,6 +306,7 @@
                             font-size: 20px;
                             line-height: 30px;
                             text-align: center;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         .project-info-2 {
@@ -309,12 +315,14 @@
                             line-height: 30px;
                             text-align: center;
                             color: #000;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         .project-btn-grp {
                             display: grid;
                             grid-template-columns: repeat(2, 1fr);
                             grid-gap: 20px;
+                            font-family: "Cormorant Garamond", sans-serif;
                         }
                         
                         .project-btn {
@@ -377,6 +385,7 @@
                             opacity: 0.6;
                             font-size: 20px;
                             line-height: 30px;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         @media screen and(max-width: 960px) {
@@ -421,6 +430,7 @@
                             transition: .5s;
                             background: rgba(0, 0, 0, 0.5);
                             text-decoration: none;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         .download-cv-btn:hover {
@@ -440,6 +450,7 @@
                             text-transform: uppercase;
                             font-weight: 300;
                             margin-bottom: 100px;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         @media screen and(max-width: 960px) {
@@ -487,6 +498,7 @@
                             text-align: center;
                             text-transform: capitalize;
                             margin: 30px 0 20px;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         .skill-info {
@@ -495,6 +507,7 @@
                             font-size: 15px;
                             line-height: 20px;
                             margin: 10px;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         .skill-level {
@@ -555,6 +568,10 @@
                             margin: -50px 0;
                             position: relative;
                             background: #f00;
+                        }
+                        
+                        .card-detail {
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         @media screen and(max-width: 960px) {
@@ -681,6 +698,7 @@
                             font-size: 30px;
                             font-weight: 300;
                             margin-bottom: 20px;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         /* Contact */
                         
@@ -706,6 +724,7 @@
                             border-radius: 5px;
                             color: #fff;
                             padding: 5px 10px;
+                            font-family: "Cormorant Garamond", sans-serif;
                         }
                         
                          ::placeholder {
@@ -727,6 +746,7 @@
                             border: none;
                             border-radius: 10px;
                             cursor: pointer;
+                            font-family: "Hubballi", sans-serif;
                         }
                         
                         .map {
@@ -782,6 +802,7 @@
                             padding: 50px;
                             margin-top: 20px;
                             margin: 0 auto;
+                            font-family: "Architects Daughter", sans-serif;
                         }
                         
                         .direction {
