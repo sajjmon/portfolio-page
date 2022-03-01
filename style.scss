@@ -147,17 +147,10 @@
                             }
                         }
                         
-                        @media screen and(max-width: 960px) {
+                        @media screen and(max-width: 600px) {
                             .hero-heading {
                                 display: flex;
-                                font-size: 15px;
-                            }
-                        }
-                        
-                        @media screen and(max-width: 480px) {
-                            .hero-heading {
-                                display: flex;
-                                font-size: 10px;
+                                font-size: 30px;
                             }
                         }
                         
