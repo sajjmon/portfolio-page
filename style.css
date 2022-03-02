@@ -384,6 +384,8 @@ header .navbar a {
 
 .p-signing {
   font-family: "Caramel", sans-serif;
+  color: #fff;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 960px) {
